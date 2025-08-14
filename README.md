@@ -23,7 +23,7 @@ cd <carpeta_del_repo>
 **Windows (PowerShell):**
 ```powershell
 python -m venv venv
-.env\Scripts\Activate.ps1
+.env\Scripts\Activate
 ```
 
 **Linux / macOS:**
@@ -70,7 +70,7 @@ alembic/
   versions/
 ```
 
-## (Opcional) Generar .exe (Windows)
+##  Generar .exe (Windows)
 ```bash
 pip install pyinstaller
 pyinstaller --onefile --noconsole main.py
